@@ -1,0 +1,6 @@
+bokeh
+requests
+numpy
+pandas
+scipy
+
