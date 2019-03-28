@@ -27,7 +27,7 @@ https://stackoverflow.com/a/6921402/9518712
 
 ```
 Start the RIT client and connect to a server.
-Click the API link in the bottom right corner and *set your API key to: MAXMAXMAX*
+Click the API link in the bottom right corner and set your API key to: MAXMAXMAX
 
 cd to working dir.
 
@@ -39,15 +39,13 @@ terminal 1 should say listening...
 In terminal 2:
 python main.py
 ```
-----
 
-### Dependencies
+## Dependencies
 bokeh
 numpy
 pandas
 requests
 
-----
 
 ## Released under the MIT License
 
