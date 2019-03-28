@@ -196,7 +196,7 @@ class BaseAlgo:
                         self.case.post_order(ticker, otype, space, action, price)
                     except:
                         pass
-                        # print(f"The fuck!!   TICKER: {ticker},  SPACE: {space}")
+                       
 
             else:
                 pass

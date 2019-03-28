@@ -13,6 +13,7 @@ If you're from another school and you're thinking of biting our code, go ahead -
 ### Servers
 
 rit.telfer.uottawa.ca:10001
+
 flserver.rotman.utoronto.ca:10000     <--- (probably your best bet)
 
 ## Achitecture v3.0

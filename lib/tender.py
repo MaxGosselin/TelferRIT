@@ -1,5 +1,5 @@
 # Author : Max Gosselin
-# Copyright TRITCT2019
+# Copyright TRIT2019
 
 from time import sleep
 import pandas as pd
@@ -31,7 +31,7 @@ class Tender:
         self.ticker = raw_tender["ticker"]
 
     def get_vwap(self, book):
-        """ Get the Volume Weighted Average Price of a tender. """
+        """ Get the instantly realizeable Volume Weighted Average Price of a tender. """
 
         # Select the rows with a cvol less than the tender volume.
         levels = book[book["cvol"].lt(self.quantity)]
@@ -49,7 +49,7 @@ class Tender:
         return (value + missing_value) / self.quantity
 
     def get_profit(self):
-        """ Compute the profit of the tender. """
+        """ Compute the naive profit of the tender. """
 
         # Gotta do something about bid tenders
         if not self.biddable:
